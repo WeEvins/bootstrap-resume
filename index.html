@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Resume Bootstrap Style</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+ 
+  <div class="nav-bar container-fluid"></div>
+    <ul class="nav justify-content-end mt-5 mr-5">
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="#about-me">about</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="#work-history">experience</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="#portfolio-links">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">contact</a>
+        </li>
+        <spacer class="col-2"></spacer>
+      </ul>
+      
+      
+      <div class="selfie-and-tagline media mr-5 ml-5">
+        <spacer class= "mr-5 ml-3"></spacer>
+        <div class="selfie-container">
+        <img src="http://fillmurray.com/400/300" class="rounded float-left">
+          <div class="tagline media-body float-right">
+              <h1 class="font-weight-bold text-info">Developer and artist. </h1>
+              <p>CURRENTLY IN NASHVILLE, TN.</p>
+          </div>
+        </div>  
+      </div>
+      
+      <div class="about-me container bg-light pt-5 pb-5" id="about-me">
+        <div class="row justify-content-center">
+            <div class="greeting col-3">
+                <h1 class="intro text-right">Hello</h1>
+                <p class="myname intro text-right">Warryn Evins</p>
+                <p class="school intro text-right">Covalence Nashville</p>
+                <p class="city intro text-right">Nashville, TN</p>
+            </div>
+            
+            <div class="bio col-6 mr-5 border border-secondary">
+                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                    officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+      </div>   
+      
+      <div class="work-history container-fluid" id="work-history">
+        <div class="containerx mt-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-2">
+                <h3 class="border-bottom border-secondary">SunTrust</h3>
+                <p>This is what I did at SunTrust. Its cool work, I assure you.</p>
+              </div>
+              <div class="col-12 col-sm-2">
+                <h3 class="border-bottom border-secondary">Exit Realty</h3>
+                <p>I was a REALTOR for a while, too. Neat stuff.</p>
+              </div>
+              <div class="w-100"></div>
+              <div class="col-12 col-sm-2">
+                <h3 class="border-bottom border-secondary">Ascend FCU</h3>
+                <p>Spent some time as a teller at a differnet bank. Wowzers!</p>
+              </div>
+              <div class="col-12 col-sm-2">
+                <h3 class="border-bottom border-secondary">Cato Fashions</h3>
+                <p>I sold fashionable female armor and accessories. Hot damn.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      <div class="portfolio-links container-fluid pt-5 pb-1" id="portfolio-links">
+          <div class="row p-5 justify-content-center">
+            <div class="view zoom">
+              <div class="workexample one m-1">
+                <img src="http://fillmurray.com/300/150" alt="portfolio link">
+                <div class="mask flex-center"></div>
+                </div>
+                <!-- Up there is where I was trying to do a zoom animation on the image -->
+
+              </div>
+              <div class=" workexample two m-1">
+                <img src="http://fillmurray.com/300/150" alt="portfolio link">
+                <div class="inner"></div>
+              </div>
+              <div class="workexample three m-1">
+                <img src="http://fillmurray.com/300/150" alt="portfolio link">
+                <div class="inner"></div>
+              </div>
+              <div class="w-100"></div>
+              <div class="workexample four m-1">
+                <img src="http://fillmurray.com/300/150" alt="portfolio link">
+                <div class="inner"></div>
+              </div>
+              <div class="workexample five m-1">
+                <img src="http://fillmurray.com/300/150" alt="portfolio link">
+                <div class="inner"></div>
+              </div>
+              <div class="workexample six m-1">
+                <img src="http://fillmurray.com/300/150"alt="portfolio link">
+                <div class="inner"></div>
+              </div>
+            </div>
+      </div>
+     
+      <div class="contact-me containter-fluid p-5" id="contact-me">
+        <form>
+            <div class="form-group mt-3 pr-5 pl-5">
+              <label for="formGroupInput"></label>
+              <input type="text" class="form-control" id="formGroupInput" placeholder="name">
+            </div>
+            <div class="form-group pr-5 pl-5">
+              <label for="formGroupInput2"></label>
+              <input type="text" class="form-control" id="formGroupInput2" placeholder="email">
+            </div>
+            <div class="form-group pr-5 pl-5">
+                <label for="FormControlTextarea1"></label>
+                <textarea class="form-control" id="FormControlTextarea1" rows="3" placeholder="say hey"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary align-self-end">Submit</button>
+          </form>
+      </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+
+    </html>

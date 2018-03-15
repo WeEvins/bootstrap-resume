@@ -1,0 +1,43 @@
+$universal-color: color #f7dddf; 
+$accent-text: color #B163A3;
+
+
+
+
+p, input, textarea, h1, h2, h3, a {
+
+    color:#1A1A1A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+   
+}
+
+div.container-fluid {
+
+    position: relative;
+}
+
+.nav-bar {
+
+    position: absolute;
+}
+
+.nav-link {
+    
+    margin-right: 10px;
+    padding: 1px;
+
+    .nav-link:hover {
+        border-bottom: black;
+    }
+
+    li {
+        margin: 5px;
+    }
+}
+
+div.workexample {
+    margin: 5px;
+}
+
+

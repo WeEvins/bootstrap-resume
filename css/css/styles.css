@@ -1,0 +1,35 @@
+p, input, textarea, h1, h2, h3, a {
+  color: #1A1A1A;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+div.container-fluid {
+  color: color #f7dddf;
+  position: relative;
+}
+
+.nav-bar {
+  position: absolute;
+}
+
+.nav-link {
+  margin-right: 10px;
+  padding: 1px;
+}
+
+.nav-link .nav-link:hover {
+  border-bottom: black;
+}
+
+.nav-link li {
+  margin: 5px;
+}
+
+#about-me {
+  background-color: color #f7dddf;
+}
+
+h1.font-weight-bold {
+  color: color #f7dddf;
+}
